@@ -29,6 +29,7 @@ private | same file
         
         my_variable += 1
 
+ 
 
     switch my_variable:
         case 1:
