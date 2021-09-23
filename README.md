@@ -23,13 +23,16 @@ private | same file
 
 ### Examples
 
+1.
+
     public def void function(param: int):
   
         my_variable: int = 15
         
         my_variable += 1
 
- 
+
+2.
 
     switch my_variable:
         case 1:
