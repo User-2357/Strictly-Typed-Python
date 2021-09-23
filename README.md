@@ -8,7 +8,10 @@ A strictly-typed version of python
 
 This is exacly the same as python, just more strict.
 Use colons to denote type.
-It also has scope.
+
+This adds:
+* Scope
+* Switches & cases
 
 ### Access Modifiers
 
@@ -18,11 +21,19 @@ public  |anywhere
 protected | same folder
 private | same file
 
-### Example
+### Examples
 
     public def void function(param: int):
   
-          int my_variable = 15
-          
-          my_variable += 1
+        my_variable: int = 15
+        
+        my_variable += 1
 
+
+    switch my_variable:
+        case 1:
+            pass
+        case 2:
+            pass
+        default:
+            pass
