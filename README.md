@@ -18,7 +18,7 @@ public  |anywhere
 protected | same folder
 private | same file
 
-### Examples
+### Example
 
     public def void function(param: int):
   
