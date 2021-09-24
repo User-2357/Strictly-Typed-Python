@@ -18,26 +18,34 @@ This adds:
 Modifier|Accessible From
 --------|---------------
 public  |anywhere
-protected | same folder
+default | same folder
 private | same file
 
 ### Examples
 
 1.
 
-    public def void function(param: int):
+    *public void* function(param: *int*):
   
-        my_variable: int = 15
+        my_variable: *int* = 15
         
         my_variable += 1
 
 
 2.
 
-    switch my_variable:
-        case 1:
-            pass
-        case 2:
-            pass
-        default:
-            pass
+    *switch* my_variable:
+        *case* 1:
+            *pass*
+        *case* 2:
+            *pass**
+        *default*:
+            *pass*
+
+### Progress
+
+[ ] switches
+
+[ ] scope
+
+[ ] strict-type
