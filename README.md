@@ -1,6 +1,6 @@
-# Strictly-Typed Python
+# Better Python*
 
-Available [here](https://github.com/User-2357/Strictly-Typed-Python/)
+\* In my opinion
 
 ### Overview
 
