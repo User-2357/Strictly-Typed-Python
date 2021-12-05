@@ -25,27 +25,19 @@ private | same file
 
 1.
 
-    **public void** function(param: *int*):
+    *public void* function(param: *int*):
   
-        my_variable: **int** = 15
+        my_variable: *int* = 15
         
         my_variable += 1
 
 
 2.
 
-    **switch** my_variable:
-        **case** 1:
-            **pass**
-        **case** 2:
-            **pass**
-        **default**:
-            **pass**
-
-### Progress
-
-[ ] switches
-
-[ ] scope
-
-[ ] strict-type
+    *switch* my_variable:
+        *case* 1:
+            *pass*
+        *case* 2:
+            *pass*
+        *default*:
+            *pass*
